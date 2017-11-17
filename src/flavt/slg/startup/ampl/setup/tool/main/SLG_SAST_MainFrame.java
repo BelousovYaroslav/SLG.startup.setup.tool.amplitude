@@ -29,18 +29,6 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jTextField4 = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
-        jButton10 = new javax.swing.JButton();
-        jLabel8 = new javax.swing.JLabel();
-        jButton11 = new javax.swing.JButton();
-        jTextField5 = new javax.swing.JTextField();
-        jLabel9 = new javax.swing.JLabel();
-        jButton12 = new javax.swing.JButton();
-        jLabel10 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -57,82 +45,36 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jButton8 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jTextField4 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jButton10 = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        jButton11 = new javax.swing.JButton();
+        jTextField5 = new javax.swing.JTextField();
+        jLabel9 = new javax.swing.JLabel();
+        jButton12 = new javax.swing.JButton();
+        jLabel10 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(600, 500));
+        setMaximumSize(new java.awt.Dimension(560, 430));
+        setMinimumSize(new java.awt.Dimension(560, 430));
+        setPreferredSize(new java.awt.Dimension(560, 430));
         setResizable(false);
         getContentPane().setLayout(null);
-
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder("Текущие значения"), "Стартовые значения"));
-        jPanel1.setLayout(null);
-
-        jButton1.setText("Сохранить");
-        jPanel1.add(jButton1);
-        jButton1.setBounds(441, 176, 120, 30);
-
-        jButton9.setText("set");
-        jPanel1.add(jButton9);
-        jButton9.setBounds(470, 30, 50, 30);
-
-        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField4.setText("jTextField1");
-        jPanel1.add(jTextField4);
-        jTextField4.setBounds(390, 30, 70, 30);
-
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("RULA");
-        jLabel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel1.add(jLabel7);
-        jLabel7.setBounds(310, 30, 70, 30);
-
-        jButton10.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
-        jButton10.setText("req");
-        jPanel1.add(jButton10);
-        jButton10.setBounds(250, 30, 50, 30);
-
-        jLabel8.setText("Стартовое RULA");
-        jLabel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel1.add(jLabel8);
-        jLabel8.setBounds(10, 30, 230, 30);
-
-        jButton11.setText("set");
-        jPanel1.add(jButton11);
-        jButton11.setBounds(470, 70, 50, 30);
-
-        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField5.setText("jTextField1");
-        jPanel1.add(jTextField5);
-        jTextField5.setBounds(390, 70, 70, 30);
-
-        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setText("RULA");
-        jLabel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel1.add(jLabel9);
-        jLabel9.setBounds(310, 70, 70, 30);
-
-        jButton12.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
-        jButton12.setText("req");
-        jPanel1.add(jButton12);
-        jButton12.setBounds(250, 70, 50, 30);
-
-        jLabel10.setText("Контрольное значение AA_dus");
-        jLabel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel1.add(jLabel10);
-        jLabel10.setBounds(10, 70, 230, 30);
-
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(10, 240, 580, 220);
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder("Текущие значения")));
         jPanel2.setLayout(null);
 
+        jButton3.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jButton3.setText("set");
         jPanel2.add(jButton3);
         jButton3.setBounds(470, 30, 50, 30);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("RULA");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jLabel1);
         jLabel1.setBounds(310, 30, 70, 30);
@@ -143,7 +85,6 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
         jLabel2.setBounds(10, 30, 230, 30);
 
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.setText("jTextField1");
         jPanel2.add(jTextField1);
         jTextField1.setBounds(390, 30, 70, 30);
 
@@ -152,17 +93,16 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
         jPanel2.add(jButton4);
         jButton4.setBounds(250, 30, 50, 30);
 
+        jButton5.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jButton5.setText("set");
         jPanel2.add(jButton5);
         jButton5.setBounds(470, 70, 50, 30);
 
         jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField2.setText("jTextField1");
         jPanel2.add(jTextField2);
         jTextField2.setBounds(390, 70, 70, 30);
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("RULA");
         jLabel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jLabel3);
         jLabel3.setBounds(310, 70, 70, 30);
@@ -177,17 +117,16 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
         jPanel2.add(jLabel4);
         jLabel4.setBounds(10, 70, 230, 30);
 
+        jButton7.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
         jButton7.setText("set");
         jPanel2.add(jButton7);
         jButton7.setBounds(470, 110, 50, 30);
 
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField3.setText("jTextField1");
         jPanel2.add(jTextField3);
         jTextField3.setBounds(390, 110, 70, 30);
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("RULA");
         jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel2.add(jLabel5);
         jLabel5.setBounds(310, 110, 70, 30);
@@ -203,7 +142,65 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
         jLabel6.setBounds(10, 110, 230, 30);
 
         getContentPane().add(jPanel2);
-        jPanel2.setBounds(10, 10, 580, 220);
+        jPanel2.setBounds(10, 10, 540, 160);
+
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Стартовые значения"));
+        jPanel1.setLayout(null);
+
+        jButton1.setText("Сохранить");
+        jPanel1.add(jButton1);
+        jButton1.setBounds(400, 120, 120, 30);
+
+        jButton9.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
+        jButton9.setText("set");
+        jPanel1.add(jButton9);
+        jButton9.setBounds(470, 30, 50, 30);
+
+        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(jTextField4);
+        jTextField4.setBounds(390, 30, 70, 30);
+
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.add(jLabel7);
+        jLabel7.setBounds(310, 30, 70, 30);
+
+        jButton10.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
+        jButton10.setText("req");
+        jPanel1.add(jButton10);
+        jButton10.setBounds(250, 30, 50, 30);
+
+        jLabel8.setText("Стартовое RULA");
+        jLabel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.add(jLabel8);
+        jLabel8.setBounds(10, 30, 230, 30);
+
+        jButton11.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
+        jButton11.setText("set");
+        jPanel1.add(jButton11);
+        jButton11.setBounds(470, 70, 50, 30);
+
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(jTextField5);
+        jTextField5.setBounds(390, 70, 70, 30);
+
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.add(jLabel9);
+        jLabel9.setBounds(310, 70, 70, 30);
+
+        jButton12.setFont(new java.awt.Font("Dialog", 1, 10)); // NOI18N
+        jButton12.setText("req");
+        jPanel1.add(jButton12);
+        jButton12.setBounds(250, 70, 50, 30);
+
+        jLabel10.setText("Контрольное значение AA_dus");
+        jLabel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.add(jLabel10);
+        jLabel10.setBounds(10, 70, 230, 30);
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(10, 180, 540, 170);
 
         jButton2.setText("Выход");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -212,7 +209,7 @@ public class SLG_SAST_MainFrame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(450, 470, 120, 30);
+        jButton2.setBounds(410, 360, 120, 30);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
